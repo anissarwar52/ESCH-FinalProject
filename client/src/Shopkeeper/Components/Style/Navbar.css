@@ -1,0 +1,120 @@
+.navbar-6{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo-6 p{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.logo-6 p .span2{
+    color: #ff523b;
+}
+
+
+.nav-33{
+    flex: 1;
+    text-align: right;
+}
+.nav-33 ul{
+    display: inline-block;
+    list-style-type: none;
+} 
+.nav-33 ul li{
+    display: inline-block;
+    margin-right:50px;
+}
+/* a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+} */
+
+.container{
+    max-width: 100%;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 30%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    background: rgb(7, 78, 172);
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 20px;
+    transition: background 0.5s;
+}
+header{
+    background: radial-gradient(#fff,#ADD8E6);
+}
+header .row{
+    margin-top: 70px;
+    
+}
+.btn:hover{
+    background: rgb(3, 25, 54);
+}
+
+.nav-33 ul li a:hover{
+    color: #ff523b;
+}
+
+/* Hide the dropdown menus by default */
+/* 
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1; 
+  } */
+  
+  /* Style the dropdown items */
+  /* .dropdown-menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: block;
+    text-align: center;
+    background-color: rgb(24, 29, 94);
+  } */
+  
+  /* Show the dropdown menu on hover */
+  /* .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  } */
+  
+  /* Style the active dropdown item */
+  /* .dropdown-menu .dropdown-item.active {
+    background-color: #007bff;
+    color: #fff;
+  } */
+  
+  /* Style the dropdown toggle link */
+  /* .nav-item.dropdown .nav-link {
+    cursor: pointer;
+  }
+   */

@@ -1,0 +1,98 @@
+.app-container {
+    display: flex;
+  }
+  
+  .content-container {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .tasks-container {
+    margin-top: 20px;
+  }
+  
+
+.viewMapBtn{
+  border-radius: 50px;
+  background-color: blue;
+  display: flex;
+  color: white;
+  justify-content: end;
+  align-content: center;
+  margin-left: 328px;
+  padding: 4px 15px;
+}
+.viewMapBtn2{
+  border-radius: 50px;
+  background-color: rgb(255, 47, 0);
+  display: flex;
+  color: white;
+  justify-content: end;
+  align-content: center;
+  margin-left: 328px;
+  padding: 4px 15px;
+}
+
+.viewMapBtn:hover{
+  background-color: rgb(7, 7, 93);
+}
+.viewMapBtn2:hover{
+  background-color: rgb(93, 7, 7);
+}
+
+
+
+  .task-item {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .task-name {
+    font-weight: bold;
+  }
+  
+  .task-date {
+    color: #555;
+  }
+
+  .modal {
+    /* Simplified styling for testing */
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .modal-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .shop-item {
+    margin-bottom: 10px;
+  }
+  
+  .shop-name {
+    font-weight: bold;
+  }
+  
+  .shop-address {
+    color: #555;
+  }
+  
+  .modal-close-button {
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  

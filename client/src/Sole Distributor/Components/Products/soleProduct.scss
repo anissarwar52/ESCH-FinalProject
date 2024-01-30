@@ -1,0 +1,138 @@
+/* UserPizza.css */
+
+/* Container for the cards */
+.cardContainer1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  width: 100%;
+}
+
+/* Individual card style */
+.card1 {
+  width: 260px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-top: 27px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-right: 1px;
+  margin-left: 19px;
+  flex-basis: 23%;
+}
+
+.card1:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+}
+
+.cardImage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Image style */
+.cardImage img {
+  height: 148px;
+  border-radius: 8px 8px 0 0;
+}
+
+/* Title style */
+.cardTitle1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Description style */
+.cardText {
+  font-size: 11px;
+  margin-bottom: 10px;
+  color: rgb(179, 167, 167);
+  text-align: center;
+}
+
+.cardText1 {
+text-align: center;
+margin-bottom: 27px;
+font-size: 21px;
+font-weight: bold;
+color: rgb(81, 18, 92);
+}
+
+
+/* Price style */
+.cardText:last-child {
+  font-size: 16px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+/* Add to cart button style */
+.addToCartButton {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 22px;
+}
+
+.btn5 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+
+// Add these styles to your existing stylesheet or define them in the component
+
+/* In your SCSS or CSS file */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.paginationButton {
+  padding: 10px;
+  margin: 0 5px;
+  border: 1px solid #3498db;
+  background-color: #fff;
+  color: #3498db;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  &:hover {
+    background-color: #3498db;
+    color: #fff;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+}
+
+.pagination .active {
+  background-color: #3498db;
+  color: #fff;
+}
+
+
+
+
+/* Optional: Center the cards if there are fewer than 3 cards per row */
+@media screen and (max-width: 768px) {
+  .cardContainer1 {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,52 @@
+/* AddComplain.css */
+.add-complain-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 85px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .add-complain-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .add-complain-label {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .add-complain-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .add-complain-select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .add-complain-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 20px;
+    margin-top: 50px;
+    cursor: pointer;
+  }
+  

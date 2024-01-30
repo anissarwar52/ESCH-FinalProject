@@ -1,0 +1,30 @@
+/* Add these styles in a separate CSS file or within a style tag in your component */
+
+.complaints-container {
+    padding: 20px;
+  }
+  
+  .complaints-table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    height: 233px;
+    margin: auto;
+    margin-bottom: 53px;
+  }
+  
+  .complaints-table th,
+  .complaints-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .complaints-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .complaints-table tr:hover {
+    background-color: #f5f5f5;
+  }
+  
